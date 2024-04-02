@@ -21,7 +21,7 @@ The script `mnist_digit_recognition.py` demonstrates the following steps:
 
 You can install the required dependencies using pip:
 
-'pip install tensorflow matplotlib'
+`pip install tensorflow matplotlib`
 
 ## Usage
 
