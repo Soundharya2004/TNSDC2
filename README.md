@@ -21,15 +21,14 @@ The script `mnist_digit_recognition.py` demonstrates the following steps:
 
 You can install the required dependencies using pip:
 
-##pip install tensorflow matplotlib
+'pip install tensorflow matplotlib'
 
 ## Usage
 
 1. Clone the repository:https://github.com/Soundharya2004/TNSDC2/
-2. cd mnist-digit-recognition
-3. Run the script:python mnist_digit_recognition.py
+2. Run the script:'python mnist_digit_recognition.py'
 
-   ## Results
+## Results
 
 After training the model, you will see the evaluation results including the loss and accuracy metrics.
 
