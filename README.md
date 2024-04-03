@@ -1,38 +1,36 @@
-# TNSDC2
-# MNIST Digit Recognition with TensorFlow
+Machine Learning Models for Stock Prices Analysis Readme
 
-This repository contains a simple Python script using TensorFlow to build and train a neural network model for handwritten digit recognition using the MNIST dataset.
+This repository contains code for performing machine learning-based analysis on stock prices data. The provided code includes implementations of Ridge Regression using scikit-learn, as well as various Artificial Neural Network (ANN) architectures trained with gradient descent to minimize the cost function. Additionally, Long Short-Term Memory (LSTM) Memory Networks are trained and tested for stock prices prediction.
 
-## Overview
+Files Included:
+ridge_regression_analysis.py: Python script for performing stock prices analysis using Ridge Regression from scikit-learn.
+neural_network_models.py: Python script containing implementations of various ANN architectures trained with gradient descent.
+lstm_memory_networks.py: Python script for training and testing LSTM Memory Networks for stock prices prediction.
+Usage:
+To use the provided code:
 
-The script `mnist_digit_recognition.py` demonstrates the following steps:
-- Loading the MNIST dataset.
-- Preprocessing the data (normalizing pixel values).
-- Building a neural network model using TensorFlow's Keras API.
-- Compiling the model with appropriate optimizer, loss function, and metrics.
-- Training the model on the training data.
-- Evaluating the model on the test data.
+Clone or download the repository to your local machine.
+Ensure you have Python installed on your system along with necessary libraries specified in the requirements.txt file.
+Execute the respective Python scripts for the analysis you want to perform:
+For Ridge Regression analysis: Run python ridge_regression_analysis.py.
+For training ANN models: Modify and run python neural_network_models.py.
+For training and testing LSTM Memory Networks: Run python lstm_memory_networks.py.
+Libraries Used:
+The code utilizes the following Python libraries:
 
-## Dependencies
+NumPy
+Pandas
+Scikit-learn
+TensorFlow (for LSTM Memory Networks)
+Ensure you have these libraries installed before running the code.
 
-- Python 3.x
-- TensorFlow
-- matplotlib
+Data Requirements:
+The code expects stock prices data in a specific format. Ensure your data follows these requirements:
 
-You can install the required dependencies using pip:
-
-`pip install tensorflow matplotlib`
-
-## Usage
-
-1. Clone the repository:https://github.com/Soundharya2004/TNSDC2/
-2. Run the script:'python mnist_digit_recognition.py'
-
-## Results
-
-After training the model, you will see the evaluation results including the loss and accuracy metrics.
-
-## Acknowledgments
-
-- This project is based on the MNIST dataset, which is a popular dataset for handwritten digit recognition.
-- Inspiration and code snippets are taken from various TensorFlow tutorials and documentation.
+The data should be in CSV format.
+It should contain columns for 'Date', 'Open', 'High', 'Low', 'Close', and 'Volume'.
+Date column should be in a format recognizable by Pandas (preferably YYYY-MM-DD).
+Additional Notes:
+The provided code is for educational and demonstration purposes.
+It's recommended to understand the code and adapt it to your specific needs or datasets.
+Ensure to set appropriate hyperparameters and tune the models as needed for optimal performance.
